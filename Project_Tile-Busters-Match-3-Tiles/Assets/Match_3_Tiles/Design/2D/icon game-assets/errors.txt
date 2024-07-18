@@ -1,0 +1,2 @@
+[2024-6-5 15:44:08] layer "+1": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2024-6-5 15:47:12] layer "booster1.png": Duplicate path: booster1.png

@@ -1,0 +1,853 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1942b7a2fe1bb7c44bd56ceb95dd1ae8, type: 3}
+  m_Name: DataLevel
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 21300000, guid: 87ab7527a918a6046acc48c82246ef21, type: 3}
+    - {fileID: 21300000, guid: c19dae536b380d647be5c0e9222f6588, type: 3}
+    - {fileID: 21300000, guid: a97e71595d80c9548aed678d528556f1, type: 3}
+    - {fileID: 21300000, guid: cd0669bf8b2fd154ab43b2d925fbb307, type: 3}
+    - {fileID: 21300000, guid: f17c62dc5c459674d914869d312ee39c, type: 3}
+    - {fileID: 21300000, guid: 609f51343375ac842b96bfb0e6db8756, type: 3}
+    - {fileID: 21300000, guid: 9669e94476561b649a9139f7ebb81242, type: 3}
+    - {fileID: 21300000, guid: 9f5fdffb392c4c94f934d67134bfd71d, type: 3}
+    - {fileID: 21300000, guid: 2739d492fde735048aa6811f4a49061e, type: 3}
+    - {fileID: 21300000, guid: 7f69895ca7d6b8d44bc1c5f0a740ed4e, type: 3}
+    - {fileID: 21300000, guid: d02b6762284f4b84aa6c951dbfbbc0f4, type: 3}
+    - {fileID: 21300000, guid: 94c4aff972f15954e84192f04847a77e, type: 3}
+    - {fileID: 21300000, guid: 9fe2a9295bbf6314a96004dee34026cf, type: 3}
+    - {fileID: 21300000, guid: 9cb613b3c216c67489a71ef2dc08299f, type: 3}
+    - {fileID: 21300000, guid: 9e5f5a2f3c5ad5544a1a4abc24898725, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: listDataImage
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[UnityEngine.Sprite, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 15
+    - Name: 
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  listLevel:
+  - level: 1
+    AmoutTypeInGame: 3
+    CoinCompleteLevel: 25
+    listGridPlace:
+    - {x: -4, y: 8, z: 1}
+    - {x: 0, y: 8, z: 1}
+    - {x: 4, y: 8, z: 1}
+    - {x: -4, y: 4, z: 1}
+    - {x: 0, y: 4, z: 1}
+    - {x: 4, y: 4, z: 1}
+    - {x: -4, y: 0, z: 1}
+    - {x: 0, y: 0, z: 1}
+    - {x: 4, y: 0, z: 1}
+    listGrp: []
+  - level: 2
+    AmoutTypeInGame: 3
+    CoinCompleteLevel: 50
+    listGridPlace:
+    - {x: -2, y: 6, z: 1}
+    - {x: -2, y: 5, z: 2}
+    - {x: -2, y: 4, z: 3}
+    - {x: -2, y: 3, z: 4}
+    - {x: 0, y: 6, z: 1}
+    - {x: 0, y: 5, z: 2}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 3, z: 4}
+    - {x: 2, y: 6, z: 1}
+    - {x: 2, y: 5, z: 2}
+    - {x: 2, y: 4, z: 3}
+    - {x: 2, y: 3, z: 4}
+    listGrp:
+    - groupType: 3
+      place: {x: 5, y: 5}
+  - level: 3
+    AmoutTypeInGame: 4
+    CoinCompleteLevel: 75
+    listGridPlace:
+    - {x: 0, y: 4, z: 4}
+    - {x: -1, y: 4, z: 3}
+    - {x: 1, y: 4, z: 3}
+    - {x: 2, y: 5, z: 2}
+    - {x: 2, y: 3, z: 2}
+    - {x: 0, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: -2, y: 5, z: 2}
+    - {x: -2, y: 3, z: 2}
+    - {x: 3, y: 6, z: 1}
+    - {x: 3, y: 4, z: 1}
+    - {x: 3, y: 2, z: 1}
+    - {x: 1, y: 6, z: 1}
+    - {x: 1, y: 4, z: 1}
+    - {x: 1, y: 2, z: 1}
+    - {x: -1, y: 6, z: 1}
+    - {x: -1, y: 4, z: 1}
+    - {x: -1, y: 2, z: 1}
+    - {x: -3, y: 6, z: 1}
+    - {x: -3, y: 4, z: 1}
+    - {x: -3, y: 2, z: 1}
+    listGrp: []
+  - level: 4
+    AmoutTypeInGame: 4
+    CoinCompleteLevel: 100
+    listGridPlace:
+    - {x: 2, y: 8, z: 1}
+    - {x: 0, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: 2, y: 7, z: 2}
+    - {x: 0, y: 7, z: 2}
+    - {x: -2, y: 7, z: 2}
+    - {x: 2, y: 6, z: 3}
+    - {x: 0, y: 6, z: 3}
+    - {x: -2, y: 6, z: 3}
+    - {x: 2, y: 5, z: 4}
+    - {x: 0, y: 5, z: 4}
+    - {x: -2, y: 5, z: 4}
+    - {x: 2, y: 4, z: 5}
+    - {x: 0, y: 4, z: 5}
+    - {x: -2, y: 4, z: 5}
+    - {x: 2, y: 0, z: 1}
+    - {x: 0, y: 0, z: 1}
+    - {x: -2, y: 0, z: 1}
+    - {x: 2, y: 0, z: 2}
+    - {x: 0, y: 0, z: 2}
+    - {x: -2, y: 0, z: 2}
+    - {x: 2, y: 0, z: 3}
+    - {x: 0, y: 0, z: 3}
+    - {x: -2, y: 0, z: 3}
+    listGrp: []
+  - level: 5
+    AmoutTypeInGame: 5
+    CoinCompleteLevel: 125
+    listGridPlace:
+    - {x: 3, y: 9, z: 1}
+    - {x: 1, y: 9, z: 1}
+    - {x: -1, y: 9, z: 1}
+    - {x: -3, y: 9, z: 1}
+    - {x: 3, y: 7, z: 1}
+    - {x: -3, y: 7, z: 1}
+    - {x: 3, y: 5, z: 1}
+    - {x: -3, y: 5, z: 1}
+    - {x: 3, y: 3, z: 1}
+    - {x: 1, y: 3, z: 1}
+    - {x: -1, y: 3, z: 1}
+    - {x: -3, y: 3, z: 1}
+    - {x: 2, y: 8, z: 2}
+    - {x: 0, y: 8, z: 2}
+    - {x: -2, y: 8, z: 2}
+    - {x: 2, y: 6, z: 2}
+    - {x: -2, y: 6, z: 2}
+    - {x: 2, y: 4, z: 2}
+    - {x: 0, y: 4, z: 2}
+    - {x: -2, y: 4, z: 2}
+    - {x: 1, y: 7, z: 3}
+    - {x: -1, y: 7, z: 3}
+    - {x: 1, y: 5, z: 3}
+    - {x: -1, y: 5, z: 3}
+    - {x: 2, y: -1, z: 1}
+    - {x: 0, y: -1, z: 1}
+    - {x: -2, y: -1, z: 1}
+    - {x: 2, y: -1, z: 2}
+    - {x: 0, y: -1, z: 2}
+    - {x: -2, y: -1, z: 2}
+    - {x: 2, y: -1, z: 3}
+    - {x: 0, y: -1, z: 3}
+    - {x: -2, y: -1, z: 3}
+    listGrp: []
+  - level: 6
+    AmoutTypeInGame: 10
+    CoinCompleteLevel: 150
+    listGridPlace:
+    - {x: 4, y: 10, z: 3}
+    - {x: 2, y: 10, z: 3}
+    - {x: -2, y: 10, z: 3}
+    - {x: -4, y: 10, z: 3}
+    - {x: 0, y: 6, z: 3}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 2, z: 3}
+    - {x: 5, y: 5, z: 2}
+    - {x: -5, y: 5, z: 2}
+    - {x: 4, y: 4, z: 3}
+    - {x: -4, y: 4, z: 3}
+    - {x: 3, y: 9, z: 2}
+    - {x: -3, y: 9, z: 2}
+    - {x: 1, y: 7, z: 2}
+    - {x: -1, y: 7, z: 2}
+    - {x: 1, y: 5, z: 2}
+    - {x: -1, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 2, y: 8, z: 1}
+    - {x: 0, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: 2, y: 6, z: 1}
+    - {x: -2, y: 6, z: 1}
+    - {x: 4, y: 10, z: 1}
+    - {x: -4, y: 10, z: 1}
+    - {x: 2, y: -2, z: 1}
+    - {x: 2, y: -2, z: 2}
+    - {x: 2, y: -2, z: 3}
+    - {x: 2, y: -2, z: 4}
+    - {x: 2, y: -2, z: 5}
+    - {x: 0, y: -2, z: 1}
+    - {x: 0, y: -2, z: 2}
+    - {x: 0, y: -2, z: 3}
+    - {x: 0, y: -2, z: 4}
+    - {x: -2, y: -2, z: 1}
+    - {x: -2, y: -2, z: 2}
+    - {x: -2, y: -2, z: 3}
+    - {x: -2, y: -2, z: 4}
+    - {x: -2, y: -2, z: 5}
+    listGrp: []
+  - level: 7
+    AmoutTypeInGame: 11
+    CoinCompleteLevel: 175
+    listGridPlace:
+    - {x: 4, y: 7, z: 4}
+    - {x: 2, y: 7, z: 4}
+    - {x: -2, y: 7, z: 4}
+    - {x: -4, y: 7, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: 3, y: 8, z: 3}
+    - {x: 1, y: 8, z: 3}
+    - {x: -1, y: 8, z: 3}
+    - {x: -3, y: 8, z: 3}
+    - {x: 5, y: 6, z: 3}
+    - {x: -5, y: 6, z: 3}
+    - {x: 1, y: 2, z: 3}
+    - {x: -1, y: 2, z: 3}
+    - {x: 4, y: 9, z: 2}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 9, z: 2}
+    - {x: -4, y: 9, z: 2}
+    - {x: 6, y: 7, z: 2}
+    - {x: -6, y: 7, z: 2}
+    - {x: 4, y: 5, z: 2}
+    - {x: -4, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 0, y: 1, z: 2}
+    - {x: 2, y: 1, z: 2}
+    - {x: -2, y: 1, z: 2}
+    - {x: 1, y: 2, z: 1}
+    - {x: -1, y: 2, z: 1}
+    - {x: 5, y: 10, z: 1}
+    - {x: 3, y: 10, z: 1}
+    - {x: -3, y: 10, z: 1}
+    - {x: -5, y: 10, z: 1}
+    - {x: 5, y: 8, z: 1}
+    - {x: 1, y: 8, z: 1}
+    - {x: -1, y: 8, z: 1}
+    - {x: -5, y: 8, z: 1}
+    - {x: 5, y: 6, z: 1}
+    - {x: -5, y: 6, z: 1}
+    - {x: 1, y: -3, z: 1}
+    - {x: 1, y: -3, z: 2}
+    - {x: 1, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: 0, y: -3, z: 4}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
+  - level: 8
+    AmoutTypeInGame: 11
+    CoinCompleteLevel: 200
+    listGridPlace:
+    - {x: 2, y: 10, z: 3}
+    - {x: 0, y: 10, z: 3}
+    - {x: -2, y: 9, z: 3}
+    - {x: 4, y: 3, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: -4, y: 3, z: 4}
+    - {x: 5, y: 3, z: 3}
+    - {x: 3, y: 3, z: 3}
+    - {x: 1, y: 3, z: 3}
+    - {x: -1, y: 3, z: 3}
+    - {x: -3, y: 3, z: 3}
+    - {x: -5, y: 3, z: 3}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 8, z: 2}
+    - {x: 0, y: 4, z: 2}
+    - {x: 0, y: 2, z: 2}
+    - {x: 6, y: 2, z: 2}
+    - {x: -6, y: 2, z: 2}
+    - {x: 0, y: 7, z: 1}
+    - {x: 0, y: 5, z: 1}
+    - {x: 0, y: 1, z: 1}
+    - {x: 6, y: 1, z: 1}
+    - {x: -6, y: 1, z: 1}
+    - {x: 2, y: -3, z: 1}
+    - {x: 2, y: -3, z: 2}
+    - {x: 2, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
+  - level: 9
+    AmoutTypeInGame: 13
+    CoinCompleteLevel: 225
+    listGridPlace:
+    - {x: 5, y: 9, z: 2}
+    - {x: 3, y: 9, z: 2}
+    - {x: -3, y: 9, z: 2}
+    - {x: -5, y: 9, z: 2}
+    - {x: 5, y: 3, z: 2}
+    - {x: 3, y: 3, z: 2}
+    - {x: -3, y: 3, z: 2}
+    - {x: -5, y: 3, z: 2}
+    - {x: 1, y: 7, z: 2}
+    - {x: -1, y: 7, z: 2}
+    - {x: 1, y: 5, z: 2}
+    - {x: -1, y: 5, z: 2}
+    - {x: 0, y: 8, z: 3}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 6, z: 1}
+    - {x: 6, y: 10, z: 1}
+    - {x: 4, y: 10, z: 1}
+    - {x: 2, y: 10, z: 1}
+    - {x: -2, y: 10, z: 1}
+    - {x: -4, y: 10, z: 1}
+    - {x: -6, y: 10, z: 1}
+    - {x: 6, y: 8, z: 1}
+    - {x: 4, y: 8, z: 1}
+    - {x: 2, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: -4, y: 8, z: 1}
+    - {x: -6, y: 8, z: 1}
+    - {x: 6, y: 4, z: 1}
+    - {x: 4, y: 4, z: 1}
+    - {x: 2, y: 4, z: 1}
+    - {x: -2, y: 4, z: 1}
+    - {x: -4, y: 4, z: 1}
+    - {x: -6, y: 4, z: 1}
+    - {x: 6, y: 2, z: 1}
+    - {x: 4, y: 2, z: 1}
+    - {x: 2, y: 2, z: 1}
+    - {x: -2, y: 2, z: 1}
+    - {x: -4, y: 2, z: 1}
+    - {x: -6, y: 2, z: 1}
+    - {x: 1, y: -1, z: 1}
+    - {x: 1, y: -1, z: 2}
+    - {x: 1, y: -1, z: 3}
+    - {x: 1, y: -1, z: 4}
+    - {x: 1, y: -1, z: 5}
+    - {x: 1, y: -1, z: 6}
+    - {x: -1, y: -1, z: 1}
+    - {x: -1, y: -1, z: 2}
+    - {x: -1, y: -1, z: 3}
+    - {x: -1, y: -1, z: 4}
+    - {x: -1, y: -1, z: 5}
+    - {x: -1, y: -1, z: 6}
+    listGrp: []
+  - level: 10
+    AmoutTypeInGame: 13
+    CoinCompleteLevel: 250
+    listGridPlace:
+    - {x: 5, y: 9, z: 4}
+    - {x: 3, y: 9, z: 4}
+    - {x: -3, y: 9, z: 4}
+    - {x: -5, y: 9, z: 4}
+    - {x: 4, y: 5, z: 2}
+    - {x: 0, y: 5, z: 2}
+    - {x: -4, y: 5, z: 2}
+    - {x: 6, y: 4, z: 2}
+    - {x: 2, y: 4, z: 2}
+    - {x: -2, y: 4, z: 2}
+    - {x: -6, y: 4, z: 2}
+    - {x: 6, y: 10, z: 3}
+    - {x: 4, y: 10, z: 3}
+    - {x: 2, y: 10, z: 3}
+    - {x: -2, y: 10, z: 3}
+    - {x: -4, y: 10, z: 3}
+    - {x: -6, y: 10, z: 3}
+    - {x: 4, y: 6, z: 1}
+    - {x: -4, y: 6, z: 1}
+    - {x: 4, y: 4, z: 1}
+    - {x: -4, y: 4, z: 1}
+    - {x: 6, y: 3, z: 1}
+    - {x: -6, y: 3, z: 1}
+    - {x: 2, y: 3, z: 1}
+    - {x: -2, y: 3, z: 1}
+    - {x: 6, y: 9, z: 2}
+    - {x: 2, y: 9, z: 2}
+    - {x: -2, y: 9, z: 2}
+    - {x: -6, y: 9, z: 2}
+    - {x: 6, y: 10, z: 1}
+    - {x: 2, y: 10, z: 1}
+    - {x: -2, y: 10, z: 1}
+    - {x: -6, y: 10, z: 1}
+    - {x: 2, y: -1, z: 1}
+    - {x: 2, y: -1, z: 2}
+    - {x: 2, y: -1, z: 3}
+    - {x: 2, y: -1, z: 4}
+    - {x: 0, y: -1, z: 1}
+    - {x: 0, y: -1, z: 2}
+    - {x: 0, y: -1, z: 3}
+    - {x: 0, y: -1, z: 4}
+    - {x: -2, y: -1, z: 1}
+    - {x: -2, y: -1, z: 2}
+    - {x: -2, y: -1, z: 3}
+    - {x: -2, y: -1, z: 4}
+    listGrp: []
+  - level: 11
+    AmoutTypeInGame: 12
+    CoinCompleteLevel: 275
+    listGridPlace:
+    - {x: 4, y: 10, z: 3}
+    - {x: 2, y: 10, z: 3}
+    - {x: -2, y: 10, z: 3}
+    - {x: -4, y: 10, z: 3}
+    - {x: 0, y: 6, z: 3}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 2, z: 3}
+    - {x: 5, y: 5, z: 2}
+    - {x: -5, y: 5, z: 2}
+    - {x: 4, y: 4, z: 3}
+    - {x: -4, y: 4, z: 3}
+    - {x: 3, y: 9, z: 2}
+    - {x: -3, y: 9, z: 2}
+    - {x: 1, y: 7, z: 2}
+    - {x: -1, y: 7, z: 2}
+    - {x: 1, y: 5, z: 2}
+    - {x: -1, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 2, y: 8, z: 1}
+    - {x: 0, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: 2, y: 6, z: 1}
+    - {x: -2, y: 6, z: 1}
+    - {x: 4, y: 10, z: 1}
+    - {x: -4, y: 10, z: 1}
+    - {x: 2, y: -2, z: 1}
+    - {x: 2, y: -2, z: 2}
+    - {x: 2, y: -2, z: 3}
+    - {x: 2, y: -2, z: 4}
+    - {x: 2, y: -2, z: 5}
+    - {x: 0, y: -2, z: 1}
+    - {x: 0, y: -2, z: 2}
+    - {x: 0, y: -2, z: 3}
+    - {x: 0, y: -2, z: 4}
+    - {x: -2, y: -2, z: 1}
+    - {x: -2, y: -2, z: 2}
+    - {x: -2, y: -2, z: 3}
+    - {x: -2, y: -2, z: 4}
+    - {x: -2, y: -2, z: 5}
+    listGrp: []
+  - level: 12
+    AmoutTypeInGame: 13
+    CoinCompleteLevel: 300
+    listGridPlace:
+    - {x: 4, y: 7, z: 4}
+    - {x: 2, y: 7, z: 4}
+    - {x: -2, y: 7, z: 4}
+    - {x: -4, y: 7, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: 3, y: 8, z: 3}
+    - {x: 1, y: 8, z: 3}
+    - {x: -1, y: 8, z: 3}
+    - {x: -3, y: 8, z: 3}
+    - {x: 5, y: 6, z: 3}
+    - {x: -5, y: 6, z: 3}
+    - {x: 1, y: 2, z: 3}
+    - {x: -1, y: 2, z: 3}
+    - {x: 4, y: 9, z: 2}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 9, z: 2}
+    - {x: -4, y: 9, z: 2}
+    - {x: 6, y: 7, z: 2}
+    - {x: -6, y: 7, z: 2}
+    - {x: 4, y: 5, z: 2}
+    - {x: -4, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 0, y: 1, z: 2}
+    - {x: 2, y: 1, z: 2}
+    - {x: -2, y: 1, z: 2}
+    - {x: 1, y: 2, z: 1}
+    - {x: -1, y: 2, z: 1}
+    - {x: 5, y: 10, z: 1}
+    - {x: 3, y: 10, z: 1}
+    - {x: -3, y: 10, z: 1}
+    - {x: -5, y: 10, z: 1}
+    - {x: 5, y: 8, z: 1}
+    - {x: 1, y: 8, z: 1}
+    - {x: -1, y: 8, z: 1}
+    - {x: -5, y: 8, z: 1}
+    - {x: 5, y: 6, z: 1}
+    - {x: -5, y: 6, z: 1}
+    - {x: 1, y: -3, z: 1}
+    - {x: 1, y: -3, z: 2}
+    - {x: 1, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: 0, y: -3, z: 4}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
+  - level: 13
+    AmoutTypeInGame: 13
+    CoinCompleteLevel: 325
+    listGridPlace:
+    - {x: 2, y: 10, z: 3}
+    - {x: 0, y: 10, z: 3}
+    - {x: -2, y: 9, z: 3}
+    - {x: 4, y: 3, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: -4, y: 3, z: 4}
+    - {x: 5, y: 3, z: 3}
+    - {x: 3, y: 3, z: 3}
+    - {x: 1, y: 3, z: 3}
+    - {x: -1, y: 3, z: 3}
+    - {x: -3, y: 3, z: 3}
+    - {x: -5, y: 3, z: 3}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 8, z: 2}
+    - {x: 0, y: 4, z: 2}
+    - {x: 0, y: 2, z: 2}
+    - {x: 6, y: 2, z: 2}
+    - {x: -6, y: 2, z: 2}
+    - {x: 0, y: 7, z: 1}
+    - {x: 0, y: 5, z: 1}
+    - {x: 0, y: 1, z: 1}
+    - {x: 6, y: 1, z: 1}
+    - {x: -6, y: 1, z: 1}
+    - {x: 2, y: -3, z: 1}
+    - {x: 2, y: -3, z: 2}
+    - {x: 2, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
+  - level: 14
+    AmoutTypeInGame: 15
+    CoinCompleteLevel: 350
+    listGridPlace:
+    - {x: 5, y: 9, z: 2}
+    - {x: 3, y: 9, z: 2}
+    - {x: -3, y: 9, z: 2}
+    - {x: -5, y: 9, z: 2}
+    - {x: 5, y: 3, z: 2}
+    - {x: 3, y: 3, z: 2}
+    - {x: -3, y: 3, z: 2}
+    - {x: -5, y: 3, z: 2}
+    - {x: 1, y: 7, z: 2}
+    - {x: -1, y: 7, z: 2}
+    - {x: 1, y: 5, z: 2}
+    - {x: -1, y: 5, z: 2}
+    - {x: 0, y: 8, z: 3}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 6, z: 1}
+    - {x: 6, y: 10, z: 1}
+    - {x: 4, y: 10, z: 1}
+    - {x: 2, y: 10, z: 1}
+    - {x: -2, y: 10, z: 1}
+    - {x: -4, y: 10, z: 1}
+    - {x: -6, y: 10, z: 1}
+    - {x: 6, y: 8, z: 1}
+    - {x: 4, y: 8, z: 1}
+    - {x: 2, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: -4, y: 8, z: 1}
+    - {x: -6, y: 8, z: 1}
+    - {x: 6, y: 4, z: 1}
+    - {x: 4, y: 4, z: 1}
+    - {x: 2, y: 4, z: 1}
+    - {x: -2, y: 4, z: 1}
+    - {x: -4, y: 4, z: 1}
+    - {x: -6, y: 4, z: 1}
+    - {x: 6, y: 2, z: 1}
+    - {x: 4, y: 2, z: 1}
+    - {x: 2, y: 2, z: 1}
+    - {x: -2, y: 2, z: 1}
+    - {x: -4, y: 2, z: 1}
+    - {x: -6, y: 2, z: 1}
+    - {x: 1, y: -1, z: 1}
+    - {x: 1, y: -1, z: 2}
+    - {x: 1, y: -1, z: 3}
+    - {x: 1, y: -1, z: 4}
+    - {x: 1, y: -1, z: 5}
+    - {x: 1, y: -1, z: 6}
+    - {x: -1, y: -1, z: 1}
+    - {x: -1, y: -1, z: 2}
+    - {x: -1, y: -1, z: 3}
+    - {x: -1, y: -1, z: 4}
+    - {x: -1, y: -1, z: 5}
+    - {x: -1, y: -1, z: 6}
+    listGrp: []
+  - level: 15
+    AmoutTypeInGame: 15
+    CoinCompleteLevel: 375
+    listGridPlace:
+    - {x: 5, y: 9, z: 4}
+    - {x: 3, y: 9, z: 4}
+    - {x: -3, y: 9, z: 4}
+    - {x: -5, y: 9, z: 4}
+    - {x: 4, y: 5, z: 2}
+    - {x: 0, y: 5, z: 2}
+    - {x: -4, y: 5, z: 2}
+    - {x: 6, y: 4, z: 2}
+    - {x: 2, y: 4, z: 2}
+    - {x: -2, y: 4, z: 2}
+    - {x: -6, y: 4, z: 2}
+    - {x: 6, y: 10, z: 3}
+    - {x: 4, y: 10, z: 3}
+    - {x: 2, y: 10, z: 3}
+    - {x: -2, y: 10, z: 3}
+    - {x: -4, y: 10, z: 3}
+    - {x: -6, y: 10, z: 3}
+    - {x: 4, y: 6, z: 1}
+    - {x: -4, y: 6, z: 1}
+    - {x: 4, y: 4, z: 1}
+    - {x: -4, y: 4, z: 1}
+    - {x: 6, y: 3, z: 1}
+    - {x: -6, y: 3, z: 1}
+    - {x: 2, y: 3, z: 1}
+    - {x: -2, y: 3, z: 1}
+    - {x: 6, y: 9, z: 2}
+    - {x: 2, y: 9, z: 2}
+    - {x: -2, y: 9, z: 2}
+    - {x: -6, y: 9, z: 2}
+    - {x: 6, y: 10, z: 1}
+    - {x: 2, y: 10, z: 1}
+    - {x: -2, y: 10, z: 1}
+    - {x: -6, y: 10, z: 1}
+    - {x: 2, y: -1, z: 1}
+    - {x: 2, y: -1, z: 2}
+    - {x: 2, y: -1, z: 3}
+    - {x: 2, y: -1, z: 4}
+    - {x: 0, y: -1, z: 1}
+    - {x: 0, y: -1, z: 2}
+    - {x: 0, y: -1, z: 3}
+    - {x: 0, y: -1, z: 4}
+    - {x: -2, y: -1, z: 1}
+    - {x: -2, y: -1, z: 2}
+    - {x: -2, y: -1, z: 3}
+    - {x: -2, y: -1, z: 4}
+    listGrp: []
+  - level: 16
+    AmoutTypeInGame: 14
+    CoinCompleteLevel: 400
+    listGridPlace:
+    - {x: 4, y: 10, z: 3}
+    - {x: 2, y: 10, z: 3}
+    - {x: -2, y: 10, z: 3}
+    - {x: -4, y: 10, z: 3}
+    - {x: 0, y: 6, z: 3}
+    - {x: 0, y: 4, z: 3}
+    - {x: 0, y: 2, z: 3}
+    - {x: 5, y: 5, z: 2}
+    - {x: -5, y: 5, z: 2}
+    - {x: 4, y: 4, z: 3}
+    - {x: -4, y: 4, z: 3}
+    - {x: 3, y: 9, z: 2}
+    - {x: -3, y: 9, z: 2}
+    - {x: 1, y: 7, z: 2}
+    - {x: -1, y: 7, z: 2}
+    - {x: 1, y: 5, z: 2}
+    - {x: -1, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 2, y: 8, z: 1}
+    - {x: 0, y: 8, z: 1}
+    - {x: -2, y: 8, z: 1}
+    - {x: 2, y: 6, z: 1}
+    - {x: -2, y: 6, z: 1}
+    - {x: 4, y: 10, z: 1}
+    - {x: -4, y: 10, z: 1}
+    - {x: 2, y: -2, z: 1}
+    - {x: 2, y: -2, z: 2}
+    - {x: 2, y: -2, z: 3}
+    - {x: 2, y: -2, z: 4}
+    - {x: 2, y: -2, z: 5}
+    - {x: 0, y: -2, z: 1}
+    - {x: 0, y: -2, z: 2}
+    - {x: 0, y: -2, z: 3}
+    - {x: 0, y: -2, z: 4}
+    - {x: -2, y: -2, z: 1}
+    - {x: -2, y: -2, z: 2}
+    - {x: -2, y: -2, z: 3}
+    - {x: -2, y: -2, z: 4}
+    - {x: -2, y: -2, z: 5}
+    listGrp: []
+  - level: 17
+    AmoutTypeInGame: 15
+    CoinCompleteLevel: 425
+    listGridPlace:
+    - {x: 4, y: 7, z: 4}
+    - {x: 2, y: 7, z: 4}
+    - {x: -2, y: 7, z: 4}
+    - {x: -4, y: 7, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: 3, y: 8, z: 3}
+    - {x: 1, y: 8, z: 3}
+    - {x: -1, y: 8, z: 3}
+    - {x: -3, y: 8, z: 3}
+    - {x: 5, y: 6, z: 3}
+    - {x: -5, y: 6, z: 3}
+    - {x: 1, y: 2, z: 3}
+    - {x: -1, y: 2, z: 3}
+    - {x: 4, y: 9, z: 2}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 9, z: 2}
+    - {x: -4, y: 9, z: 2}
+    - {x: 6, y: 7, z: 2}
+    - {x: -6, y: 7, z: 2}
+    - {x: 4, y: 5, z: 2}
+    - {x: -4, y: 5, z: 2}
+    - {x: 0, y: 3, z: 2}
+    - {x: 0, y: 1, z: 2}
+    - {x: 2, y: 1, z: 2}
+    - {x: -2, y: 1, z: 2}
+    - {x: 1, y: 2, z: 1}
+    - {x: -1, y: 2, z: 1}
+    - {x: 5, y: 10, z: 1}
+    - {x: 3, y: 10, z: 1}
+    - {x: -3, y: 10, z: 1}
+    - {x: -5, y: 10, z: 1}
+    - {x: 5, y: 8, z: 1}
+    - {x: 1, y: 8, z: 1}
+    - {x: -1, y: 8, z: 1}
+    - {x: -5, y: 8, z: 1}
+    - {x: 5, y: 6, z: 1}
+    - {x: -5, y: 6, z: 1}
+    - {x: 1, y: -3, z: 1}
+    - {x: 1, y: -3, z: 2}
+    - {x: 1, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: 0, y: -3, z: 4}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
+  - level: 18
+    AmoutTypeInGame: 15
+    CoinCompleteLevel: 450
+    listGridPlace:
+    - {x: 2, y: 10, z: 3}
+    - {x: 0, y: 10, z: 3}
+    - {x: -2, y: 9, z: 3}
+    - {x: 4, y: 3, z: 4}
+    - {x: 0, y: 3, z: 4}
+    - {x: -4, y: 3, z: 4}
+    - {x: 5, y: 3, z: 3}
+    - {x: 3, y: 3, z: 3}
+    - {x: 1, y: 3, z: 3}
+    - {x: -1, y: 3, z: 3}
+    - {x: -3, y: 3, z: 3}
+    - {x: -5, y: 3, z: 3}
+    - {x: 2, y: 9, z: 2}
+    - {x: 0, y: 9, z: 2}
+    - {x: -2, y: 8, z: 2}
+    - {x: 0, y: 4, z: 2}
+    - {x: 0, y: 2, z: 2}
+    - {x: 6, y: 2, z: 2}
+    - {x: -6, y: 2, z: 2}
+    - {x: 0, y: 7, z: 1}
+    - {x: 0, y: 5, z: 1}
+    - {x: 0, y: 1, z: 1}
+    - {x: 6, y: 1, z: 1}
+    - {x: -6, y: 1, z: 1}
+    - {x: 2, y: -3, z: 1}
+    - {x: 2, y: -3, z: 2}
+    - {x: 2, y: -3, z: 3}
+    - {x: 0, y: -3, z: 1}
+    - {x: 0, y: -3, z: 2}
+    - {x: 0, y: -3, z: 3}
+    - {x: -2, y: -3, z: 1}
+    - {x: -2, y: -3, z: 2}
+    - {x: -2, y: -3, z: 3}
+    listGrp: []
